@@ -3,7 +3,6 @@ import express from 'express';
 import morgan from 'morgan';
 import helmet from 'helmet';
 import xss from 'xss-clean';
-import rateLimit from 'express-rate-limit';
 import cors from 'cors';
 import hpp from 'hpp';
 import chalk from 'chalk';
@@ -44,18 +43,6 @@ app.use(xss());
 
 // Enable CORS
 app.use(cors());
-
-// Rate limiter
-const limiter = rateLimit({
-    windowMs: 5 * 60 * 1000,
-    max: 100,
-    message:
-        'Too many requests created from this IP, please try again after an 5 minutes',
-    standardHeaders: true,
-    legacyHeaders: false,
-});
-
-app.use(limiter);
 
 // Prevent http param pollution
 app.use(hpp());

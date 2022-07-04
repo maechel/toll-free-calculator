@@ -1,34 +1,40 @@
 {
   "vehicles": [
     {
-      "regNr": "c83e93",
+      "regNr": "c1f843",
       "type": "Car",
-      "model": "Jaguar A4",
-      "owner": "857fd6e5-f7e5-47c9-821d-2a37e0e8cc22"
+      "model": "Bugatti Silverado",
+      "owner": "e38ab8f8-dc14-42d0-9da6-53b84c49fe0b"
     },
     {
-      "regNr": "f2ebf3",
+      "regNr": "f27e62",
+      "type": "Car",
+      "model": "Mazda ATS",
+      "owner": "b709ea01-e71c-469a-922f-f113f3c5c67b"
+    },
+    {
+      "regNr": "b55a16",
+      "type": "Car",
+      "model": "Jeep Roadster",
+      "owner": "61724cf4-d129-4773-8b64-d050daacb6c1"
+    },
+    {
+      "regNr": "5b7618",
       "type": "Diplomat",
-      "model": "Nissan El Camino",
-      "owner": "50f05789-45a6-475a-9e2d-fe5f1bf9f50f"
+      "model": "Jaguar V90",
+      "owner": "c6083280-13fd-4cf4-9751-522c29026883"
     },
     {
-      "regNr": "abbe9f",
+      "regNr": "4348e5",
       "type": "Car",
-      "model": "Audi Challenger",
-      "owner": "01957b2c-8c92-46e3-92f9-4442ce048de2"
+      "model": "Chrysler Cruze",
+      "owner": "a1b333ec-4e33-4641-ba6c-8e760b84aed2"
     },
     {
-      "regNr": "2be7cc",
+      "regNr": "ABC123",
       "type": "Car",
-      "model": "Lamborghini Model T",
-      "owner": "cb0c9cbc-d855-4d5d-8ed1-9a01a35ef823"
-    },
-    {
-      "regNr": "d1d8fa",
-      "type": "Motorbike",
-      "model": "Porsche Wrangler",
-      "owner": "5a8c6dde-75cc-4697-9f7e-8cbe1ab23f3c"
+      "model": "Ford Focus",
+      "owner": "396a3661-8f7b-4409-b5f3-6d3391e7f7ad"
     }
   ]
 }
