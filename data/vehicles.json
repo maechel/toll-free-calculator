@@ -1,0 +1,34 @@
+{
+  "vehicles": [
+    {
+      "regNr": "c83e93",
+      "type": "Car",
+      "model": "Jaguar A4",
+      "owner": "857fd6e5-f7e5-47c9-821d-2a37e0e8cc22"
+    },
+    {
+      "regNr": "f2ebf3",
+      "type": "Diplomat",
+      "model": "Nissan El Camino",
+      "owner": "50f05789-45a6-475a-9e2d-fe5f1bf9f50f"
+    },
+    {
+      "regNr": "abbe9f",
+      "type": "Car",
+      "model": "Audi Challenger",
+      "owner": "01957b2c-8c92-46e3-92f9-4442ce048de2"
+    },
+    {
+      "regNr": "2be7cc",
+      "type": "Car",
+      "model": "Lamborghini Model T",
+      "owner": "cb0c9cbc-d855-4d5d-8ed1-9a01a35ef823"
+    },
+    {
+      "regNr": "d1d8fa",
+      "type": "Motorbike",
+      "model": "Porsche Wrangler",
+      "owner": "5a8c6dde-75cc-4697-9f7e-8cbe1ab23f3c"
+    }
+  ]
+}

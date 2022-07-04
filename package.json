@@ -1,0 +1,39 @@
+{
+  "name": "toll-free-calculator",
+  "version": "1.0.0",
+  "description": "Toll-fee application built with Node/Express and React/Redux",
+  "main": "server/index.js",
+  "type": "module",
+  "scripts": {
+    "server:dev": "nodemon server/index.js --ignore data --ignore database",
+    "server:start": "node server/index.js",
+    "db:seed": "node server/seedDb.js",
+    "client": "npm run start --prefix client",
+    "client:build": "npm run build --prefix client",
+    "dev": "NODE_ENV=development concurrently \"npm run server:dev\" \"npm run client\"",
+    "start": "NODE_ENV=development concurrently \"npm run server:start\" \"npm run client\""
+  },
+  "keywords": ["Node", "Express", "React", "Redux"],
+  "author": "Lars Maechel",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^5.0.1",
+    "concurrently": "^7.2.2",
+    "cors": "^2.8.5",
+    "date-holidays": "^3.16.2",
+    "express": "^4.18.1",
+    "express-rate-limit": "^6.4.0",
+    "helmet": "^5.1.0",
+    "hpp": "^0.2.3",
+    "lodash": "^4.17.21",
+    "lowdb": "^3.0.0",
+    "moment": "^2.29.3",
+    "nodemon": "^2.0.18",
+    "xss-clean": "^0.1.1"
+  },
+  "devDependencies": {
+    "@faker-js/faker": "^7.3.0",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.18"
+  }
+}
